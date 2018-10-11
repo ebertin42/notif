@@ -1,23 +1,23 @@
 class ContentController < ApplicationController
 	def index
 		def sendPush
-		#notif_data = NotificationDatum.create(endpoint: params[:subscription][:endpoint],
-		#                        p256dh_key: params[:subscription][:keys][:p256dh],
-		#                        auth_key: params[:subscription][:keys][:auth])
-		#User.where(auth_key: params[:subscription][:keys][:auth]).destroy_all
-		#user = User.create(auth_key: params[:subscription][:keys][:auth], :notif_id => notif_data.id)
-		sendPayload(1)
+		notif_data = NotificationData.create(endpoint: params[:subscription][:endpoint],
+		                        p256dh_key: params[:subscription][:keys][:p256dh],
+		                        auth_key: params[:subscription][:keys][:auth])
+		User.where(auth_key: params[:subscription][:keys][:auth]).destroy_all
+		user = User.create(auth_key: params[:subscription][:keys][:auth], :notif_id => notif_data.id)
+		sendPayload(user)
 		render body: nil
-	end
+		end
 
 	def sendPayload(user)
-	    #@message = get_message(user.name)
-	    if user == 1
-	      #@notification_data = NotificationDatum.find(user.notif_id)
-	      Webpush.payload_send(endpoint: params[:subscription][:endpoint],
+	    @message = get_message(user.name)
+	    if user.notif_id.present?
+	      @notif_data = NotificationData.find(user.notif_id)
+		  out = Webpush.payload_send(endpoint: @notif_data.endpoint,
 	                           message: "Salut",
-	                           p256dh: params[:subscription][:keys][:p256dh],
-	                           auth: params[:subscription][:keys][:auth],
+	                           p256dh: @notif_data.p256dh_key,
+	                           auth: @notif_data.auth_key,
 	                           ttl: 24 * 60 * 60,
 	                           vapid: {
 	                               subject: 'mailto:admin@commercialview.com.au',
@@ -26,8 +26,10 @@ class ContentController < ApplicationController
 	                           }
 	      )
 	      puts "success"
+		  puts out
 	    else
 	      puts "failed"
+		  puts out
 	    end
 	end
 

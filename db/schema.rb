@@ -10,12 +10,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_10_04_213057) do
+ActiveRecord::Schema.define(version: 2018_10_11_140023) do
 
   create_table "notification_data", force: :cascade do |t|
     t.string "endpoint"
     t.string "p256dh_key"
     t.string "auth_key"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.integer "notif_id"
+    t.string "name"
+    t.integer "auth_key"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

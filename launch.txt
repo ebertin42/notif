@@ -1,0 +1,7 @@
+Pour lancer Rails : rails s -b 'ssl://localhost:3300?key=localhost.key&cert=localhost.crt'
+
+Il faut ensuite lancer Chrome avec les flags,
+
+Sur Windows : ./chrome.exe --user-data-dir=C:\\[UN_DOSSIER_VIDE] --ignore-certificate-errors --unsafely-treat-insecure-origin-as-secure=https://localhost:3000
+
+Sur Mac : ./Google\ Chrome --user-data-dir=/tmp/[UN_DOSSIER_VIDE] --ignore-certificate-errors --unsafely-treat-insecure-origin-as-secure=https://localhost:3000
