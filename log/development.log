@@ -16297,3 +16297,1936 @@ Migrating to ChangeUser (20181013144727)
   ↳ /Users/ebertin/.rbenv/versions/2.4.4/bin/rake:23
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /Users/ebertin/.rbenv/versions/2.4.4/bin/rake:23
+Started GET "/" for ::1 at 2018-10-13 17:30:55 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 166ms (Views: 157.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:30:56 +0200
+Started POST "/" for ::1 at 2018-10-13 17:31:26 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/ssl.rb:74:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:31:28 +0200
+Started GET "/" for ::1 at 2018-10-13 17:32:40 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 169ms (Views: 159.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:32:41 +0200
+Started POST "/" for ::1 at 2018-10-13 17:32:41 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/ssl.rb:74:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:32:42 +0200
+Started POST "/" for ::1 at 2018-10-13 17:32:53 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/ssl.rb:74:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:32:54 +0200
+Started GET "/" for ::1 at 2018-10-13 17:33:32 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 164ms (Views: 155.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2018-10-13 17:33:36 +0200
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:33:36 +0200
+Started POST "/" for ::1 at 2018-10-13 17:33:43 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/ssl.rb:74:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:33:45 +0200
+Started GET "/" for ::1 at 2018-10-13 17:36:32 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 162ms (Views: 151.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:36:33 +0200
+Started POST "/" for ::1 at 2018-10-13 17:36:35 +0200
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/ssl.rb:74:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:36:37 +0200
+Started GET "/" for ::1 at 2018-10-13 17:51:52 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 165ms (Views: 155.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:51:54 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 17:51:55 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr", "expirationTime"=>"", "keys"=>{"p256dh"=>"BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg", "auth"=>"Ot3TP34qDmmAnywTH6bfbA"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.4ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr"], ["p256dh_key", "BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg"], ["auth_key", "Ot3TP34qDmmAnywTH6bfbA"], ["created_at", "2018-10-13 15:51:55.724469"], ["updated_at", "2018-10-13 15:51:55.724469"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 319]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["notif_id", 320], ["auth_key", 0], ["created_at", "2018-10-13 15:51:55.751376"], ["updated_at", "2018-10-13 15:51:55.751376"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.2ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 320], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 85ms (Views: 0.8ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 17:51:55 +0200
+Started GET "/" for ::1 at 2018-10-13 17:53:54 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 166ms (Views: 158.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:53:56 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 17:53:56 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr", "expirationTime"=>"", "keys"=>{"p256dh"=>"BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg", "auth"=>"Ot3TP34qDmmAnywTH6bfbA"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.5ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr"], ["p256dh_key", "BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg"], ["auth_key", "Ot3TP34qDmmAnywTH6bfbA"], ["created_at", "2018-10-13 15:53:56.714421"], ["updated_at", "2018-10-13 15:53:56.714421"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 320]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 321], ["auth_key", 0], ["created_at", "2018-10-13 15:53:56.734485"], ["updated_at", "2018-10-13 15:53:56.734485"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 321], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 100ms (Views: 0.7ms | ActiveRecord: 9.9ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 17:53:56 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 17:53:58 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr", "expirationTime"=>"", "keys"=>{"p256dh"=>"BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg", "auth"=>"Ot3TP34qDmmAnywTH6bfbA"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr"], ["p256dh_key", "BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg"], ["auth_key", "Ot3TP34qDmmAnywTH6bfbA"], ["created_at", "2018-10-13 15:53:58.728325"], ["updated_at", "2018-10-13 15:53:58.728325"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 321]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 322], ["auth_key", 0], ["created_at", "2018-10-13 15:53:58.737455"], ["updated_at", "2018-10-13 15:53:58.737455"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 322], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 51ms (Views: 0.4ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 17:53:58 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 17:53:58 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr", "expirationTime"=>"", "keys"=>{"p256dh"=>"BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg", "auth"=>"Ot3TP34qDmmAnywTH6bfbA"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr"], ["p256dh_key", "BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg"], ["auth_key", "Ot3TP34qDmmAnywTH6bfbA"], ["created_at", "2018-10-13 15:53:58.919849"], ["updated_at", "2018-10-13 15:53:58.919849"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 322]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 323], ["auth_key", 0], ["created_at", "2018-10-13 15:53:58.928252"], ["updated_at", "2018-10-13 15:53:58.928252"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 323], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 45ms (Views: 0.4ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 17:53:58 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 17:53:59 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr", "expirationTime"=>"", "keys"=>{"p256dh"=>"BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg", "auth"=>"Ot3TP34qDmmAnywTH6bfbA"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr"], ["p256dh_key", "BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg"], ["auth_key", "Ot3TP34qDmmAnywTH6bfbA"], ["created_at", "2018-10-13 15:53:59.415884"], ["updated_at", "2018-10-13 15:53:59.415884"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 323]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 324], ["auth_key", 0], ["created_at", "2018-10-13 15:53:59.425217"], ["updated_at", "2018-10-13 15:53:59.425217"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 324], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 60ms (Views: 0.4ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 17:53:59 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 17:53:59 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr", "expirationTime"=>"", "keys"=>{"p256dh"=>"BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg", "auth"=>"Ot3TP34qDmmAnywTH6bfbA"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr"], ["p256dh_key", "BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg"], ["auth_key", "Ot3TP34qDmmAnywTH6bfbA"], ["created_at", "2018-10-13 15:53:59.575905"], ["updated_at", "2018-10-13 15:53:59.575905"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 324]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 325], ["auth_key", 0], ["created_at", "2018-10-13 15:53:59.584495"], ["updated_at", "2018-10-13 15:53:59.584495"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 325], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 60ms (Views: 1.1ms | ActiveRecord: 8.4ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 17:53:59 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 17:54:00 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr", "expirationTime"=>"", "keys"=>{"p256dh"=>"BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg", "auth"=>"Ot3TP34qDmmAnywTH6bfbA"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.2ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr"], ["p256dh_key", "BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg"], ["auth_key", "Ot3TP34qDmmAnywTH6bfbA"], ["created_at", "2018-10-13 15:54:00.040388"], ["updated_at", "2018-10-13 15:54:00.040388"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 325]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 326], ["auth_key", 0], ["created_at", "2018-10-13 15:54:00.050114"], ["updated_at", "2018-10-13 15:54:00.050114"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (10.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 326], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 79ms (Views: 1.0ms | ActiveRecord: 17.3ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 17:54:00 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 17:54:00 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr", "expirationTime"=>"", "keys"=>{"p256dh"=>"BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg", "auth"=>"Ot3TP34qDmmAnywTH6bfbA"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/fCoaUyKC4LE:APA91bHpOQVfdjprw_Hej_FG7BZKG2XYLl_4ibd5I5XsPaEtrFTSgiVL-1Shp2Qa-SpcDW3smMjkC0rKSYlHCU-dUggEInA-CDM3myui7ZQeQSW_qA9tJAiubmR0L8Wunq7sa8NIfkkr"], ["p256dh_key", "BEnoGGh9_iEsypZ10QSAEe088grm5YSlcNUixs89bSFI1CXit182lWkNx14QrLWMFdwe-Mfi-iFYMpjVB0MbmFg"], ["auth_key", "Ot3TP34qDmmAnywTH6bfbA"], ["created_at", "2018-10-13 15:54:00.179493"], ["updated_at", "2018-10-13 15:54:00.179493"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 326]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 327], ["auth_key", 0], ["created_at", "2018-10-13 15:54:00.189156"], ["updated_at", "2018-10-13 15:54:00.189156"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 327], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 69ms (Views: 0.4ms | ActiveRecord: 8.7ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 17:54:00 +0200
+Started GET "/" for ::1 at 2018-10-13 17:55:44 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 168ms (Views: 158.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:55:44 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 17:55:49 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (1.0ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 15:55:49.633134"], ["updated_at", "2018-10-13 15:55:49.633134"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 327]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 328], ["auth_key", 0], ["created_at", "2018-10-13 15:55:49.654254"], ["updated_at", "2018-10-13 15:55:49.654254"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 328], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 77ms (Views: 0.7ms | ActiveRecord: 11.2ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 17:56:14 +0200
+Started GET "/" for ::1 at 2018-10-13 17:58:43 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 156ms (Views: 147.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 17:58:45 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 17:58:45 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.4ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 15:58:45.420309"], ["updated_at", "2018-10-13 15:58:45.420309"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (3.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 328]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 329], ["auth_key", 0], ["created_at", "2018-10-13 15:58:45.443845"], ["updated_at", "2018-10-13 15:58:45.443845"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 329], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 82ms (Views: 0.7ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 17:58:45 +0200
+Started GET "/" for ::1 at 2018-10-13 18:00:00 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 156ms (Views: 147.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 18:00:01 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 18:00:02 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.4ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:00:02.102718"], ["updated_at", "2018-10-13 16:00:02.102718"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 329]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 330], ["auth_key", 0], ["created_at", "2018-10-13 16:00:02.124869"], ["updated_at", "2018-10-13 16:00:02.124869"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 330], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 90ms (Views: 0.7ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 18:00:02 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 18:00:03 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:00:03.551976"], ["updated_at", "2018-10-13 16:00:03.551976"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 330]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 331], ["auth_key", 0], ["created_at", "2018-10-13 16:00:03.560715"], ["updated_at", "2018-10-13 16:00:03.560715"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 331], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 64ms (Views: 0.4ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 18:00:03 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 18:00:03 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:00:03.695642"], ["updated_at", "2018-10-13 16:00:03.695642"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 331]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 332], ["auth_key", 0], ["created_at", "2018-10-13 16:00:03.704602"], ["updated_at", "2018-10-13 16:00:03.704602"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 332], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 53ms (Views: 0.4ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 18:00:03 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 18:00:03 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:00:03.831459"], ["updated_at", "2018-10-13 16:00:03.831459"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 332]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 333], ["auth_key", 0], ["created_at", "2018-10-13 16:00:03.842631"], ["updated_at", "2018-10-13 16:00:03.842631"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 333], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 80ms (Views: 0.4ms | ActiveRecord: 8.9ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 18:00:03 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 18:00:03 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:00:03.952679"], ["updated_at", "2018-10-13 16:00:03.952679"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 333]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 334], ["auth_key", 0], ["created_at", "2018-10-13 16:00:03.966775"], ["updated_at", "2018-10-13 16:00:03.966775"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 334], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 71ms (Views: 1.2ms | ActiveRecord: 8.6ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 18:00:04 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 18:00:04 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:00:04.079362"], ["updated_at", "2018-10-13 16:00:04.079362"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 334]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 335], ["auth_key", 0], ["created_at", "2018-10-13 16:00:04.089477"], ["updated_at", "2018-10-13 16:00:04.089477"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mNotificationData Load (0.1ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 335], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:16
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 77ms (Views: 0.4ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 18:00:04 +0200
+Started GET "/" for ::1 at 2018-10-13 18:02:21 +0200
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 171ms (Views: 161.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 18:02:22 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 18:02:23 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:02:23.116006"], ["updated_at", "2018-10-13 16:02:23.116006"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 335]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 336], ["auth_key", 0], ["created_at", "2018-10-13 16:02:23.151382"], ["updated_at", "2018-10-13 16:02:23.151382"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (11.9ms)
+UserMailer#welcome_email: processed outbound mail in 34.1ms
+Completed 500 Internal Server Error in 259ms (ActiveRecord: 11.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `usermane' for #<User:0x00007ffad2585b18>
+Did you mean?  username):
+    1: <h1>Bienvenue sur nivo-edu.fr, <%= @user.nickname %></h1>
+    2:   <p>
+    3:     You have successfully signed up to example.com,
+    4:     your username is: <%= @user.usermane %>.<br>
+    5:   </p>
+    6: <p>Thanks for joining and have a great day!</p>
+  
+app/views/user_mailer/welcome_email.html.erb:4:in `_app_views_user_mailer_welcome_email_html_erb___1004850384282282032_70357598407460'
+app/mailers/user_mailer.rb:4:in `welcome_email'
+app/controllers/content_controller.rb:9:in `sendPush'
+Started GET "/" for ::1 at 2018-10-13 18:04:01 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 172ms (Views: 162.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sendNo" for ::1 at 2018-10-13 18:04:03 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:04:03.184177"], ["updated_at", "2018-10-13 16:04:03.184177"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 336]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 337], ["auth_key", 0], ["created_at", "2018-10-13 16:04:03.220583"], ["updated_at", "2018-10-13 16:04:03.220583"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (0.5ms)
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 18:04:03 +0200
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (0.8ms)
+UserMailer#welcome_email: processed outbound mail in 948.7ms
+Sent mail to bertinelliot@gmail.com (305.9ms)
+Date: Sat, 13 Oct 2018 18:04:04 +0200
+From: nivoeducation@gmail.com
+To: bertinelliot@gmail.com
+Message-ID: <5bc217743ad06_99943ff44ebf5ce86271e@e1r7p4.42.fr.mail>
+Subject: Bienvenue sur Nivo !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bc2177436d53_99943ff44ebf5ce862635";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bc2177436d53_99943ff44ebf5ce862635
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Bienvenue sur nivo-edu.fr, Elliot
+===============================================
+You have successfully signed up to example.com,
+your username is: Bertin.
+Thanks for joining and have a great day!
+
+
+----==_mimepart_5bc2177436d53_99943ff44ebf5ce862635
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur nivo-edu.fr, Elliot</h1>
+  <p>
+    You have successfully signed up to example.com,
+    your username is: Bertin.<br>
+  </p>
+<p>Thanks for joining and have a great day!</p>
+
+
+  </body>
+</html>
+
+----==_mimepart_5bc2177436d53_99943ff44ebf5ce862635--
+
+Completed 500 Internal Server Error in 1357ms (ActiveRecord: 9.9ms)
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbtx
+):
+  
+app/controllers/content_controller.rb:9:in `sendPush'
+Started GET "/" for ::1 at 2018-10-13 18:10:17 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 167ms (Views: 158.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sendNo" for ::1 at 2018-10-13 18:10:18 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (1.0ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:10:18.520572"], ["updated_at", "2018-10-13 16:10:18.520572"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 337]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 338], ["auth_key", 0], ["created_at", "2018-10-13 16:10:18.561339"], ["updated_at", "2018-10-13 16:10:18.561339"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (0.8ms)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (0.4ms)
+UserMailer#welcome_email: processed outbound mail in 51.0ms
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 18:10:18 +0200
+Sent mail to bertinelliot@gmail.com (119.0ms)
+Date: Sat, 13 Oct 2018 18:10:18 +0200
+From: nivoeducation@gmail.com
+To: bertinelliot@gmail.com
+Message-ID: <5bc218eaa43e4_9c863fe3153abd487944c@e1r7p4.42.fr.mail>
+Subject: Bienvenue sur Nivo !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bc218eaa2076_9c863fe3153abd4879388";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bc218eaa2076_9c863fe3153abd4879388
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Bienvenue sur nivo-edu.fr, Elliot
+===============================================
+You have successfully signed up to example.com,
+your username is: Bertin.
+Thanks for joining and have a great day!
+
+
+----==_mimepart_5bc218eaa2076_9c863fe3153abd4879388
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur nivo-edu.fr, Elliot</h1>
+  <p>
+    You have successfully signed up to example.com,
+    your username is: Bertin.<br>
+  </p>
+<p>Thanks for joining and have a great day!</p>
+
+
+  </body>
+</html>
+
+----==_mimepart_5bc218eaa2076_9c863fe3153abd4879388--
+
+Completed 500 Internal Server Error in 276ms (ActiveRecord: 16.2ms)
+
+
+  
+Net::SMTPAuthenticationError (535-5.7.8 Username and Password not accepted. Learn more at
+):
+  
+app/controllers/content_controller.rb:9:in `sendPush'
+Started GET "/" for ::1 at 2018-10-13 18:11:06 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 164ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sendNo" for ::1 at 2018-10-13 18:11:07 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.4ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:11:07.325679"], ["updated_at", "2018-10-13 16:11:07.325679"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 338]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 18:11:07 +0200
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 339], ["auth_key", 0], ["created_at", "2018-10-13 16:11:07.369380"], ["updated_at", "2018-10-13 16:11:07.369380"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (0.6ms)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (0.5ms)
+UserMailer#welcome_email: processed outbound mail in 55.6ms
+Sent mail to bertinelliot@gmail.com (266.3ms)
+Date: Sat, 13 Oct 2018 18:11:07 +0200
+From: nivoeducation@gmail.com
+To: bertinelliot@gmail.com
+Message-ID: <5bc2191b78fc3_9d823ff4f3d79c549861b@e1r7p4.42.fr.mail>
+Subject: Bienvenue sur Nivo !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bc2191b77211_9d823ff4f3d79c5498524";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bc2191b77211_9d823ff4f3d79c5498524
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Bienvenue sur nivo-edu.fr, Elliot
+===============================================
+You have successfully signed up to example.com,
+your username is: Bertin.
+Thanks for joining and have a great day!
+
+
+----==_mimepart_5bc2191b77211_9d823ff4f3d79c5498524
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur nivo-edu.fr, Elliot</h1>
+  <p>
+    You have successfully signed up to example.com,
+    your username is: Bertin.<br>
+  </p>
+<p>Thanks for joining and have a great day!</p>
+
+
+  </body>
+</html>
+
+----==_mimepart_5bc2191b77211_9d823ff4f3d79c5498524--
+
+Completed 500 Internal Server Error in 443ms (ActiveRecord: 10.5ms)
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbt0
+):
+  
+app/controllers/content_controller.rb:9:in `sendPush'
+Started GET "/" for ::1 at 2018-10-13 18:12:59 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 160ms (Views: 151.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sendNo" for ::1 at 2018-10-13 18:13:00 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.4ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:13:00.471651"], ["updated_at", "2018-10-13 16:13:00.471651"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 339]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 340], ["auth_key", 0], ["created_at", "2018-10-13 16:13:00.491117"], ["updated_at", "2018-10-13 16:13:00.491117"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (0.5ms)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (0.3ms)
+UserMailer#welcome_email: processed outbound mail in 39.9ms
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 18:13:00 +0200
+Sent mail to bertinelliot@gmail.com (232.5ms)
+Date: Sat, 13 Oct 2018 18:13:00 +0200
+From: nivoeducation@gmail.com
+To: bertinelliot@gmail.com
+Message-ID: <5bc2198c8ee20_9e863fc2589a4b108838@e1r7p4.42.fr.mail>
+Subject: Bienvenue sur Nivo !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bc2198c8d7ad_9e863fc2589a4b108791";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bc2198c8d7ad_9e863fc2589a4b108791
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Bienvenue sur nivo-edu.fr, Elliot
+===============================================
+You have successfully signed up to example.com,
+your username is: Bertin.
+Thanks for joining and have a great day!
+
+
+----==_mimepart_5bc2198c8d7ad_9e863fc2589a4b108791
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur nivo-edu.fr, Elliot</h1>
+  <p>
+    You have successfully signed up to example.com,
+    your username is: Bertin.<br>
+  </p>
+<p>Thanks for joining and have a great day!</p>
+
+
+  </body>
+</html>
+
+----==_mimepart_5bc2198c8d7ad_9e863fc2589a4b108791--
+
+Completed 500 Internal Server Error in 352ms (ActiveRecord: 10.1ms)
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbvS
+):
+  
+app/controllers/content_controller.rb:9:in `sendPush'
+Started POST "/sendNo" for ::1 at 2018-10-13 18:13:54 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.9ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:13:54.631766"], ["updated_at", "2018-10-13 16:13:54.631766"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 340]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 341], ["auth_key", 0], ["created_at", "2018-10-13 16:13:54.641750"], ["updated_at", "2018-10-13 16:13:54.641750"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (0.4ms)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (0.3ms)
+UserMailer#welcome_email: processed outbound mail in 22.5ms
+Sent mail to bertinelliot@gmail.com (233.7ms)
+Date: Sat, 13 Oct 2018 18:13:54 +0200
+From: nivoeducation@gmail.com
+To: bertinelliot@gmail.com
+Message-ID: <5bc219c2a35da_9e863fc2589a4e589070@e1r7p4.42.fr.mail>
+Subject: Bienvenue sur Nivo !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bc219c2a2bb0_9e863fc2589a4e5889c7";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bc219c2a2bb0_9e863fc2589a4e5889c7
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Bienvenue sur nivo-edu.fr, Elliot
+===============================================
+You have successfully signed up to example.com,
+your username is: Bertin.
+Thanks for joining and have a great day!
+
+
+----==_mimepart_5bc219c2a2bb0_9e863fc2589a4e5889c7
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur nivo-edu.fr, Elliot</h1>
+  <p>
+    You have successfully signed up to example.com,
+    your username is: Bertin.<br>
+  </p>
+<p>Thanks for joining and have a great day!</p>
+
+
+  </body>
+</html>
+
+----==_mimepart_5bc219c2a2bb0_9e863fc2589a4e5889c7--
+
+Completed 500 Internal Server Error in 272ms (ActiveRecord: 9.3ms)
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbtH
+):
+  
+app/controllers/content_controller.rb:9:in `sendPush'
+Started GET "/" for ::1 at 2018-10-13 18:14:00 +0200
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 19ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 18:14:01 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 18:14:01 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:14:01.796877"], ["updated_at", "2018-10-13 16:14:01.796877"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 341]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 342], ["auth_key", 0], ["created_at", "2018-10-13 16:14:01.805637"], ["updated_at", "2018-10-13 16:14:01.805637"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (0.4ms)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (0.3ms)
+UserMailer#welcome_email: processed outbound mail in 26.9ms
+Sent mail to bertinelliot@gmail.com (256.0ms)
+Date: Sat, 13 Oct 2018 18:14:01 +0200
+From: nivoeducation@gmail.com
+To: bertinelliot@gmail.com
+Message-ID: <5bc219c9cc649_9e863fc2589a4e589290@e1r7p4.42.fr.mail>
+Subject: Bienvenue sur Nivo !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bc219c9cba2c_9e863fc2589a4e58914f";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bc219c9cba2c_9e863fc2589a4e58914f
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Bienvenue sur nivo-edu.fr, Elliot
+===============================================
+You have successfully signed up to example.com,
+your username is: Bertin.
+Thanks for joining and have a great day!
+
+
+----==_mimepart_5bc219c9cba2c_9e863fc2589a4e58914f
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur nivo-edu.fr, Elliot</h1>
+  <p>
+    You have successfully signed up to example.com,
+    your username is: Bertin.<br>
+  </p>
+<p>Thanks for joining and have a great day!</p>
+
+
+  </body>
+</html>
+
+----==_mimepart_5bc219c9cba2c_9e863fc2589a4e58914f--
+
+Completed 500 Internal Server Error in 297ms (ActiveRecord: 8.1ms)
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbvC
+):
+  
+app/controllers/content_controller.rb:9:in `sendPush'
+Started POST "/sendNo" for ::1 at 2018-10-13 18:14:18 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (1.0ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:14:18.914747"], ["updated_at", "2018-10-13 16:14:18.914747"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 342]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 343], ["auth_key", 0], ["created_at", "2018-10-13 16:14:18.924661"], ["updated_at", "2018-10-13 16:14:18.924661"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (0.4ms)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (0.3ms)
+UserMailer#welcome_email: processed outbound mail in 23.5ms
+Sent mail to bertinelliot@gmail.com (326.0ms)
+Date: Sat, 13 Oct 2018 18:14:18 +0200
+From: nivoeducation@gmail.com
+To: bertinelliot@gmail.com
+Message-ID: <5bc219dae8b59_9e863fc2589a4c14942b@e1r7p4.42.fr.mail>
+Subject: Bienvenue sur Nivo !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bc219dae7f94_9e863fc2589a4c14938a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bc219dae7f94_9e863fc2589a4c14938a
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Bienvenue sur nivo-edu.fr, Elliot
+===============================================
+You have successfully signed up to example.com,
+your username is: Bertin.
+Thanks for joining and have a great day!
+
+
+----==_mimepart_5bc219dae7f94_9e863fc2589a4c14938a
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur nivo-edu.fr, Elliot</h1>
+  <p>
+    You have successfully signed up to example.com,
+    your username is: Bertin.<br>
+  </p>
+<p>Thanks for joining and have a great day!</p>
+
+
+  </body>
+</html>
+
+----==_mimepart_5bc219dae7f94_9e863fc2589a4c14938a--
+
+Completed 500 Internal Server Error in 365ms (ActiveRecord: 9.8ms)
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbuT
+):
+  
+app/controllers/content_controller.rb:9:in `sendPush'
+Started GET "/" for ::1 at 2018-10-13 18:15:09 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 168ms (Views: 160.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sendNo" for ::1 at 2018-10-13 18:15:10 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.4ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:15:10.737953"], ["updated_at", "2018-10-13 16:15:10.737953"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 343]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 344], ["auth_key", 0], ["created_at", "2018-10-13 16:15:10.774139"], ["updated_at", "2018-10-13 16:15:10.774139"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (0.6ms)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (0.4ms)
+UserMailer#welcome_email: processed outbound mail in 53.7ms
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 18:15:11 +0200
+Sent mail to bertinelliot@gmail.com (241.7ms)
+Date: Sat, 13 Oct 2018 18:15:10 +0200
+From: nivoeducation@gmail.com
+To: bertinelliot@gmail.com
+Message-ID: <5bc21a0ed8ff2_9f6c3fd20fa43cd050160@e1r7p4.42.fr.mail>
+Subject: Bienvenue sur Nivo !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bc21a0ed723a_9f6c3fd20fa43cd0500ca";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bc21a0ed723a_9f6c3fd20fa43cd0500ca
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Bienvenue sur nivo-edu.fr, Elliot
+===============================================
+You have successfully signed up to example.com,
+your username is: Bertin.
+Thanks for joining and have a great day!
+
+
+----==_mimepart_5bc21a0ed723a_9f6c3fd20fa43cd0500ca
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur nivo-edu.fr, Elliot</h1>
+  <p>
+    You have successfully signed up to example.com,
+    your username is: Bertin.<br>
+  </p>
+<p>Thanks for joining and have a great day!</p>
+
+
+  </body>
+</html>
+
+----==_mimepart_5bc21a0ed723a_9f6c3fd20fa43cd0500ca--
+
+Completed 500 Internal Server Error in 398ms (ActiveRecord: 9.1ms)
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbvV
+):
+  
+app/controllers/content_controller.rb:9:in `sendPush'
+Started GET "/" for ::1 at 2018-10-13 18:17:16 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 165ms (Views: 156.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sendNo" for ::1 at 2018-10-13 18:17:17 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:17:17.668174"], ["updated_at", "2018-10-13 16:17:17.668174"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 344]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 345], ["auth_key", 0], ["created_at", "2018-10-13 16:17:17.689879"], ["updated_at", "2018-10-13 16:17:17.689879"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (0.5ms)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (0.4ms)
+UserMailer#welcome_email: processed outbound mail in 46.0ms
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 18:17:17 +0200
+Sent mail to bertinelliot@gmail.com (246.0ms)
+Date: Sat, 13 Oct 2018 18:17:17 +0200
+From: nivoeducation@gmail.com
+To: bertinelliot@gmail.com
+Message-ID: <5bc21a8dc522e_a0d83fd711ec7dcc7949e@e1r7p4.42.fr.mail>
+Subject: Bienvenue sur Nivo !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bc21a8dc3d9a_a0d83fd711ec7dcc7933a";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bc21a8dc3d9a_a0d83fd711ec7dcc7933a
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Bienvenue sur nivo-edu.fr, Elliot
+===============================================
+You have successfully signed up to example.com,
+your username is: Bertin.
+Thanks for joining and have a great day!
+
+
+----==_mimepart_5bc21a8dc3d9a_a0d83fd711ec7dcc7933a
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur nivo-edu.fr, Elliot</h1>
+  <p>
+    You have successfully signed up to example.com,
+    your username is: Bertin.<br>
+  </p>
+<p>Thanks for joining and have a great day!</p>
+
+
+  </body>
+</html>
+
+----==_mimepart_5bc21a8dc3d9a_a0d83fd711ec7dcc7933a--
+
+Completed 500 Internal Server Error in 391ms (ActiveRecord: 12.0ms)
+
+
+  
+Net::SMTPAuthenticationError (534-5.7.14 <https://accounts.google.com/signin/continue?sarp=1&scc=1&plt=AKgnsbsm
+):
+  
+app/controllers/content_controller.rb:9:in `sendPush'
+Started GET "/" for ::1 at 2018-10-13 18:19:30 +0200
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 177ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sendNo" for ::1 at 2018-10-13 18:19:31 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:19:31.942389"], ["updated_at", "2018-10-13 16:19:31.942389"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 345]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 346], ["auth_key", 0], ["created_at", "2018-10-13 16:19:31.963027"], ["updated_at", "2018-10-13 16:19:31.963027"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (0.6ms)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (0.4ms)
+UserMailer#welcome_email: processed outbound mail in 47.6ms
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 18:19:32 +0200
+Sent mail to bertinelliot@gmail.com (921.5ms)
+Date: Sat, 13 Oct 2018 18:19:32 +0200
+From: nivoeducation@gmail.com
+To: bertinelliot@gmail.com
+Message-ID: <5bc21b1414b16_a22d3fdcefc1530c5859f@e1r7p4.42.fr.mail>
+Subject: Bienvenue sur Nivo !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bc21b1412f1a_a22d3fdcefc1530c58469";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bc21b1412f1a_a22d3fdcefc1530c58469
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Bienvenue sur nivo-edu.fr, Elliot
+===============================================
+You have successfully signed up to example.com,
+your username is: Bertin.
+Thanks for joining and have a great day!
+
+
+----==_mimepart_5bc21b1412f1a_a22d3fdcefc1530c58469
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur nivo-edu.fr, Elliot</h1>
+  <p>
+    You have successfully signed up to example.com,
+    your username is: Bertin.<br>
+  </p>
+<p>Thanks for joining and have a great day!</p>
+
+
+  </body>
+</html>
+
+----==_mimepart_5bc21b1412f1a_a22d3fdcefc1530c58469--
+
+  [1m[36mNotificationData Load (0.2ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 346], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:17
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1146ms (Views: 1.5ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 18:19:33 +0200
+Started POST "/sendNo" for ::1 at 2018-10-13 18:20:16 +0200
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/ebertin/.rbenv/versions/2.4.4/lib/ruby/gems/2.4.0/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+  
+AbstractController::ActionNotFound (The action 'sendPush' could not be found for ContentController):
+  
+actionpack (5.2.1) lib/abstract_controller/base.rb:129:in `process'
+actionview (5.2.1) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.1) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.1) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+serviceworker-rails (0.5.5) lib/serviceworker/middleware.rb:32:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/ssl.rb:74:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for ::1 at 2018-10-13 18:20:21 +0200
+Processing by ContentController#index as HTML
+  Rendering content/index.html.erb within layouts/application
+  Rendered content/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 154ms (Views: 146.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sendNo" for ::1 at 2018-10-13 18:20:22 +0200
+Processing by ContentController#sendPush as */*
+  Parameters: {"subscription"=>{"endpoint"=>"https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t", "expirationTime"=>"", "keys"=>{"p256dh"=>"BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0", "auth"=>"c_HZynuapaZDqXzxZI0rXQ"}}, "message"=>"You clicked a button!"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mNotificationData Create (0.3ms)[0m  [1m[32mINSERT INTO "notification_data" ("endpoint", "p256dh_key", "auth_key", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["endpoint", "https://fcm.googleapis.com/fcm/send/dR-YdHE64eU:APA91bGnSVBCQfxzH8XjVXPzh2j5ao74z-CrSbmp1hCJaP807Ggjz2Zx9WvXZurOHrlqbk3J8jLW8iywxPvrC6GWAFmUju9fRtSDmtwIIP1PUQ_B3MUU-7bjGJGNEjtuQ08DBzM-af8t"], ["p256dh_key", "BM9k676n4CBgW1JCLoy7iBMlS8Xr9lN3t_04LTY0vBqYtP3mtTjaM8cc24i2S4DwNtzCzK4HnSCpg2vN4jSnl_0"], ["auth_key", "c_HZynuapaZDqXzxZI0rXQ"], ["created_at", "2018-10-13 16:20:22.738051"], ["updated_at", "2018-10-13 16:20:22.738051"]]
+  ↳ app/controllers/content_controller.rb:4
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:4
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."auth_key" = ?[0m  [["auth_key", 0]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = ?[0m  [["id", 346]]
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (2.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:7
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("notif_id", "auth_key", "created_at", "updated_at", "email", "username", "nickname") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["notif_id", 347], ["auth_key", 0], ["created_at", "2018-10-13 16:20:22.757520"], ["updated_at", "2018-10-13 16:20:22.757520"], ["email", "bertinelliot@gmail.com"], ["username", "Bertin"], ["nickname", "Elliot"]]
+  ↳ app/controllers/content_controller.rb:8
+  [1m[35m (2.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/content_controller.rb:8
+  Rendering user_mailer/welcome_email.html.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.html.erb within layouts/mailer (0.4ms)
+  Rendering user_mailer/welcome_email.text.erb within layouts/mailer
+  Rendered user_mailer/welcome_email.text.erb within layouts/mailer (0.3ms)
+UserMailer#welcome_email: processed outbound mail in 59.3ms
+Started GET "/serviceworker.js" for ::1 at 2018-10-13 18:20:22 +0200
+Sent mail to bertinelliot@gmail.com (886.8ms)
+Date: Sat, 13 Oct 2018 18:20:22 +0200
+From: nivoeducation@gmail.com
+To: bertinelliot@gmail.com
+Message-ID: <5bc21b46d4ae7_a3423fc94b6cacd8298d1@e1r7p4.42.fr.mail>
+Subject: Bienvenue sur Nivo !
+Mime-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="--==_mimepart_5bc21b46d2ee8_a3423fc94b6cacd8297a8";
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+
+----==_mimepart_5bc21b46d2ee8_a3423fc94b6cacd8297a8
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Bienvenue sur nivo-edu.fr, Elliot
+===============================================
+You have successfully signed up to example.com,
+your username is: Bertin.
+Thanks for joining and have a great day!
+
+
+----==_mimepart_5bc21b46d2ee8_a3423fc94b6cacd8297a8
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style>
+      /* Email styles need to be inline */
+    </style>
+  </head>
+
+  <body>
+    <h1>Bienvenue sur nivo-edu.fr, Elliot</h1>
+  <p>
+    You have successfully signed up to example.com,
+    your username is: Bertin.<br>
+  </p>
+<p>Thanks for joining and have a great day!</p>
+
+
+  </body>
+</html>
+
+----==_mimepart_5bc21b46d2ee8_a3423fc94b6cacd8297a8--
+
+  [1m[36mNotificationData Load (0.2ms)[0m  [1m[34mSELECT  "notification_data".* FROM "notification_data" WHERE "notification_data"."id" = ? LIMIT ?[0m  [["id", 347], ["LIMIT", 1]]
+  ↳ app/controllers/content_controller.rb:17
+  Rendering text template
+  Rendered text template (0.0ms)
+Completed 200 OK in 1090ms (Views: 0.9ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/logo.png" for ::1 at 2018-10-13 18:20:23 +0200

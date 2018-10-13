@@ -5,7 +5,8 @@ class ContentController < ApplicationController
 		                        p256dh_key: params[:subscription][:keys][:p256dh],
 		                        auth_key: params[:subscription][:keys][:auth])
 		User.where(auth_key: params[:subscription][:keys][:auth]).destroy_all
-		user = User.create(auth_key: params[:subscription][:keys][:auth], :notif_id => notif_data.id)
+		user = User.create(auth_key: params[:subscription][:keys][:auth], username: "Bertin", nickname: "Elliot", email: "bertinelliot@gmail.com", :notif_id => notif_data.id)
+		UserMailer.welcome_email(user).deliver_now
 		sendPayload(user)
 		render body: nil
 		end

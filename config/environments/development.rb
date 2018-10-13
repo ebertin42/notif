@@ -15,16 +15,16 @@ Rails.application.configure do
   # Enable/disable caching. By default caching is disabled.
   # Run rails dev:cache to toggle caching.
   if Rails.root.join('tmp', 'caching-dev.txt').exist?
-    config.action_controller.perform_caching = true
+	  config.action_controller.perform_caching = true
 
-    config.cache_store = :memory_store
-    config.public_file_server.headers = {
-      'Cache-Control' => "public, max-age=#{2.days.to_i}"
-    }
+	  config.cache_store = :memory_store
+	  config.public_file_server.headers = {
+		  'Cache-Control' => "public, max-age=#{2.days.to_i}"
+	  }
   else
-    config.action_controller.perform_caching = false
+	  config.action_controller.perform_caching = false
 
-    config.cache_store = :null_store
+	  config.cache_store = :null_store
   end
 
   # Store uploaded files on the local file system (see config/storage.yml for options)
@@ -50,7 +50,7 @@ Rails.application.configure do
   # number of complex assets.
   config.assets.debug = true
 
-	config.enforce_ssl = true
+  config.enforce_ssl = true
 
   # Suppress logger output for asset requests.
   config.assets.quiet = true
@@ -62,6 +62,7 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   config.web_console.whitelisted_ips = '90.127.90.118'
+=begin
   config.action_mailer.delivery_method = :sendmail
   # Defaults to:
   # # config.action_mailer.sendmail_settings = {
@@ -71,7 +72,7 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default_options = {from: 'nivoeducation@gmail.com'}
-  
+
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
 	  address:              'smtp.gmail.com',
@@ -81,4 +82,19 @@ Rails.application.configure do
 	  password:             'nivon4620',
 	  authentication:       'plain',
 	  enable_starttls_auto: true  }
+=end
+  config.action_mailer.delivery_method = :smtp
+ # config.action_mailer.default_url_options = { host:'localhost', port: '3300' }
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default :charset => "utf-8"
+  config.action_mailer.smtp_settings = {
+	  :address => "smtp.gmail.com",
+	  :port => 587,
+	  :domain => 'localhost:3300',
+	  :user_name => "nivoeducation@gmail.com",
+	  :password => "nivon4620",
+	  :authentication => :plain,
+	  :enable_starttls_auto => true
+  }
 end
