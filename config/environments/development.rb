@@ -62,4 +62,23 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   config.web_console.whitelisted_ips = '90.127.90.118'
+  config.action_mailer.delivery_method = :sendmail
+  # Defaults to:
+  # # config.action_mailer.sendmail_settings = {
+  # #   location: '/usr/sbin/sendmail',
+  # #   arguments: '-i'
+  # # }
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default_options = {from: 'nivoeducation@gmail.com'}
+  
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+	  address:              'smtp.gmail.com',
+	  port:                 587,
+	  domain:               'nivo-edu.fr',
+	  user_name:            'nivoeducation',
+	  password:             'nivon4620',
+	  authentication:       'plain',
+	  enable_starttls_auto: true  }
 end
